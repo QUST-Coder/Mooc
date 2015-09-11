@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>mooc</display-name>
+  <servlet>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <servlet-class>cn.itcast.vcode.servlet.VerifyCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.greatmooc.web.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CategoryServlet</servlet-name>
+    <servlet-class>com.greatmooc.web.servlet.CategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CourseServlet</servlet-name>
+    <servlet-class>com.greatmooc.web.servlet.CourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChapterServlet</servlet-name>
+    <servlet-class>com.greatmooc.web.servlet.ChapterServlet</servlet-class>
+  </servlet>  
+  <servlet>
+    <servlet-name>VideoServlet</servlet-name>
+    <servlet-class>com.greatmooc.web.servlet.VideoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SchoolServlet</servlet-name>
+    <servlet-class>com.greatmooc.web.servlet.SchoolServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TeacherServlet</servlet-name>
+    <servlet-class>com.greatmooc.web.servlet.TeacherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminCategoryServlet</servlet-name>
+    <servlet-class>com.greatmooc.admin.category.web.servlet.AdminCategoryServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>AdminCourseServlet</servlet-name>
+    <servlet-class>com.greatmooc.admin.course.web.servlet.AdminCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminAddSchoolServlet</servlet-name>
+    <servlet-class>com.greatmooc.admin.school.web.servlet.AdminAddSchoolServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminAddCourseServlet</servlet-name>
+    <servlet-class>com.greatmooc.admin.course.web.servlet.AdminAddCourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminChapterServlet</servlet-name>
+    <servlet-class>com.greatmooc.admin.chapter.web.servlet.AdminChapterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminSchoolServlet</servlet-name>
+    <servlet-class>com.greatmooc.admin.school.web.servlet.AdminSchoolServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <url-pattern>/VerifyCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CategoryServlet</servlet-name>
+    <url-pattern>/CategoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseServlet</servlet-name>
+    <url-pattern>/CourseServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>ChapterServlet</servlet-name>
+    <url-pattern>/ChapterServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>VideoServlet</servlet-name>
+    <url-pattern>/VideoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SchoolServlet</servlet-name>
+    <url-pattern>/SchoolServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherServlet</servlet-name>
+    <url-pattern>/TeacherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminCategoryServlet</servlet-name>
+    <url-pattern>/admin/AdminCategoryServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AdminCourseServlet</servlet-name>
+    <url-pattern>/admin/AdminCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminAddSchoolServlet</servlet-name>
+    <url-pattern>/admin/AdminAddSchoolServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminAddCourseServlet</servlet-name>
+    <url-pattern>/admin/AdminAddCourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminChapterServlet</servlet-name>
+    <url-pattern>/admin/AdminChapterServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AdminSchoolServlet</servlet-name>
+    <url-pattern>/admin/AdminSchoolServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
